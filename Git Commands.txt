@@ -8,3 +8,5 @@ if we get "modified: {file}", then maybe there are cached data, so type "git rm 
 
 git add .: adds files that are about to be committed
 git commit -m "{some text}": commits file with input message using -m
+QUESTION: where do we see these messages?
+QUESTION: what happens to the files added and committed to the wrong folder?
