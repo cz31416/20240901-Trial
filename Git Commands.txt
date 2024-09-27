@@ -1,0 +1,10 @@
+git clone "{website}"
+cd
+ls -la
+
+git status: check status
+if we get "fatal: not a git repository (or any of the parent directories): .git", then type "git init" then it should work
+if we get "modified: {file}", then maybe there are cached data, so type "git rm --cached -r ."
+
+git add .: adds files that are about to be committed
+git commit -m "{some text}": commits file with input message using -m
