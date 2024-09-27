@@ -12,5 +12,8 @@ QUESTION: where do we see these messages?
 ANSWER: in the GitHub repository
 QUESTION: what happens to the files added and committed to the wrong folder?
 NOTE: when file is modified, can do "git add ." and "git commit -m "{message}"" again to commit the file
+QUESTION: what is the purpose of commit?
+
+git push -u origin main: to push the committed files into GitHub cloud
 
 Using vim {file name}, we can access the text file and write in it by typing i for insert mode, then esc to exit insert mode, then :wq to write and quit. This will save the changes through vim into the text file directly.
