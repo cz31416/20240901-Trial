@@ -9,4 +9,8 @@ if we get "modified: {file}", then maybe there are cached data, so type "git rm 
 git add .: adds files that are about to be committed
 git commit -m "{some text}": commits file with input message using -m
 QUESTION: where do we see these messages?
+ANSWER: in the GitHub repository
 QUESTION: what happens to the files added and committed to the wrong folder?
+NOTE: when file is modified, can do "git add ." and "git commit -m "{message}"" again to commit the file
+
+Testing vim
