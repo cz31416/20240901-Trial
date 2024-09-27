@@ -3,8 +3,8 @@ cd
 ls -la
 
 git status: check status
-if we get "fatal: not a git repository (or any of the parent directories): .git", then type "git init" then it should work
-if we get "modified: {file}", then maybe there are cached data, so type "git rm --cached -r ."
+If we get "fatal: not a git repository (or any of the parent directories): .git", then type "git init" then it should work
+If we get "modified: {file}", then maybe there are cached data, so type "git rm --cached -r ."
 
 git add .: adds files that are about to be committed
 git commit -m "{some text}": commits file with input message using -m
@@ -13,4 +13,4 @@ ANSWER: in the GitHub repository
 QUESTION: what happens to the files added and committed to the wrong folder?
 NOTE: when file is modified, can do "git add ." and "git commit -m "{message}"" again to commit the file
 
-Testing vim
+Using vim {file name}, we can access the text file and write in it by typing i for insert mode, then esc to exit insert mode, then :wq to write and quit. This will save the changes through vim into the text file directly.
