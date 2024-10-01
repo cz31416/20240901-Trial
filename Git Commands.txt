@@ -17,3 +17,13 @@ QUESTION: what is the purpose of commit?
 git push -u origin main: to push the committed files into GitHub cloud
 
 Using vim {file name}, we can access the text file and write in it by typing i for insert mode, then esc to exit insert mode, then :wq to write and quit. This will save the changes through vim into the text file directly.
+
+git log: check history
+
+git pull origin
+
+git push --force: forces local folder to be uploaded to cloud
+
+git reset --hard HEAD~1: after pushing, get back to commit stage
+
+git reset --soft HEAD~n: after commiting, goes back n commits in time, but preserves the change, i.e. back to add stage
